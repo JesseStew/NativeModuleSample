@@ -19,6 +19,9 @@ namespace NativeModuleSample
         REACT_CONSTANT(PI, L"Pi");
         const double PI = M_PI;
 
+        REACT_CONSTANT(str1);
+        const char str1[18] = "Custom Module str";
+
         REACT_METHOD(Add, L"add");
         double Add(double a, double b) noexcept
         {
